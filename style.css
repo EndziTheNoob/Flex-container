@@ -1,4 +1,20 @@
 /*Tady piš svůj kód*/
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar-bottom {
+  align-self: flex-end;
+}
+
+.content {
+  display: flex;
+}
 
 /*-------------*/
 *,
@@ -8,6 +24,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #2c3e66;
